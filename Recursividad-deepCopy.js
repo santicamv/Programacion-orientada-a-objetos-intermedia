@@ -115,3 +115,6 @@ console.log(juanito);
 
 /*A continuación se hace referencia al método isSealed que nos permite verificar si todas las propiedades del objeto tienen la protección de configurable como false*/
 console.log(Object.isSealed(juanito));
+
+/*Hace que el elemento se congele, no se puede borrar, ni tampoco permite editar las propiedades del objeto */
+console.log(Object.isFrozen(juanito));
